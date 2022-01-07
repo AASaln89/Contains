@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Contains"
         mc:Ignorable="d"
-        Title="MainWindow" Height="193.114" Width="483.018" Background="#FFDEDEDE">
+        Title="MainWindow" Height="316.51" Width="398.678" Background="#FFDEDEDE">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Margin="5" Padding="5" Background="#FFC6FFFF" FontSize="16" TextWrapping="Wrap" TextAlignment="Right"/>
-        <UniformGrid Grid.Row="1" Rows="5" Columns="6">
+        <TextBlock Grid.Row="0" Margin="5" Padding="10" Background="#FFC6FFFF" FontSize="16" TextWrapping="Wrap" TextAlignment="Right"/>
+        <UniformGrid Grid.Row="1" Rows="5" Columns="6" Margin="5">
             <Button Content="ON/OFF" Grid.Row="0" Grid.Column="0" Margin="1" Padding="2" Foreground="White" BorderBrush="Black" Background="Black"/>
             <Button Content="CE" Grid.Row="0" Grid.Column="1" Margin="1" Padding="2" Background="Black" BorderBrush="Black" Foreground="White"/>
             <Button Content="C" Grid.Row="0" Grid.Column="2" Margin="1" Padding="2" Background="Black" BorderBrush="Black" Foreground="White"/>
